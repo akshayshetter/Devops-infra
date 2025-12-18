@@ -1,4 +1,4 @@
-ource "aws_instance" "my_ec2" {
+Source "aws_instance" "my_ec2" {
   ami           = var.ami_id
   instance_type = var.instance_type
 
